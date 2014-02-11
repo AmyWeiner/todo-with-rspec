@@ -15,8 +15,13 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+<<<<<<< HEAD
 group :development, :test do
   gem 'dotenv-rails'		
+=======
+group :development, :test do 
+  gem 'dotenv-rails'
+>>>>>>> 3093f8646c0c749ecbe28f1fa9a234b587e8d2dd
   gem 'rspec-rails', '~> 3.0.0.beta'
   gem 'launchy'
   gem 'database_cleaner'
