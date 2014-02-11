@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.0'
 gem 'rails', '4.0.2'
 
 gem 'pg'
@@ -16,6 +16,7 @@ group :doc do
 end
 
 group :development, :test do
+  gem 'dotenv-rails'		
   gem 'rspec-rails', '~> 3.0.0.beta'
   gem 'launchy'
   gem 'database_cleaner'
